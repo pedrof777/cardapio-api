@@ -36,5 +36,7 @@ docker-compose up -d
 ./mvnw spring-boot:run
 ```
 ⚠️Obs:Para subir o local precisa configurar o application-local.properties 
+
 Acesse o Swagger local em: http://localhost:8080/swagger-ui/index.html
+
 Acesse o Swagger em produção: https://cardapio-api-67zv.onrender.com/swagger-ui/index.html
