@@ -1,5 +1,13 @@
 # Cardápio API
 
+## 🔗 API em produção
+
+Documentação interativa (Swagger): 
+https://cardapio-api-67zv.onrender.com/swagger-ui/index.html
+
+⚠️ Hospedado no plano free do Render — a primeira requisição após 
+período de inatividade pode levar até 50s para responder.
+
 * API REST para gerenciamento de cardápio de restaurante, permitindo o controle de categorias, produtos e acesso de usuários.
 * Desenvolvida utilizando Spring Boot 3 e empacotada no formato JAR.
 * Gerenciamento de dependências feito com Maven.
@@ -27,4 +35,6 @@ docker-compose up -d
 # Roda a aplicação
 ./mvnw spring-boot:run
 ```
-Acesse o Swagger em: `http://localhost:8080/swagger-ui/index.html`
+⚠️Obs:Para subir o local precisa configurar o application-local.properties 
+Acesse o Swagger local em: http://localhost:8080/swagger-ui/index.html
+Acesse o Swagger em produção: https://cardapio-api-67zv.onrender.com/swagger-ui/index.html
